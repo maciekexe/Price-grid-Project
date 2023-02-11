@@ -8,18 +8,87 @@
 }
 
 body {
-  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  background-color: rgb(204, 117, 11);
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  flex-wrap: wrap;
 }
 
 main {
   display: flex;
   flex-direction: column;
+  width: 650px;
+}
+
+.main2 {
+  display: flex;
 }
 
 .Join {
-  background-color: antiquewhite;
+  color: rgb(92, 78, 78);
+  margin: 0px;
+  background-color: hsl(204, 43%, 93%);
+  padding: 25px;
 }
 
 .cash {
-  background-color: rgb(22, 199, 37);
+  width: 400px;
+  color: white;
+  margin: 0px;
+  background-color: hsl(194, 67%, 39%);
+  padding: 30px;
+}
+
+.Why_us {
+  width: 350px;
+  color: white;
+  text-align: left;
+  margin: 0px;
+  background-color: hsl(179, 62%, 43%);
+  padding: 30px;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+}
+.p_main {
+  color: hsl(0, 87%, 48%);
+}
+
+.price {
+  display: inline;
+  font-size: 30px;
+  margin: 5px;
+}
+
+.month {
+  color: hsl(218, 22%, 67%);
+  display: inline;
+}
+
+button {
+  width: 250px;
+  padding: 10px;
+  background-color: hsl(71, 73%, 54%);
+
+  border-radius: 10px;
+  border: 1px solid hsl(71, 73%, 54%);
+}
+
+h2 {
+  font-size: large;
+}
+
+button:hover {
+  box-shadow: 0 0 20px 5px gray;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(112, 109, 109);
 }
