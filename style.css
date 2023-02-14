@@ -23,6 +23,7 @@ main {
   display: flex;
   flex-direction: column;
   width: 650px;
+  border-radius: 20px;
 }
 
 .main2 {
