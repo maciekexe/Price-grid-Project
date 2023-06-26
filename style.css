@@ -12,11 +12,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0px;
   background-color: rgb(204, 117, 11);
   font-size: 16px;
   font-family: "Karla", sans-serif;
   flex-wrap: wrap;
+    margin: 10%;
 }
 
 main {
@@ -35,6 +35,7 @@ main {
   margin: 0px;
   background-color: hsl(204, 43%, 93%);
   padding: 25px;
+  border-radius: 20px 20px 0px 0px;
 }
 
 .cash {
@@ -43,6 +44,7 @@ main {
   margin: 0px;
   background-color: hsl(194, 67%, 39%);
   padding: 30px;
+   border-radius: 0px 0px 0px 20px;
 }
 
 .Why_us {
@@ -52,6 +54,7 @@ main {
   margin: 0px;
   background-color: hsl(179, 62%, 43%);
   padding: 30px;
+    border-radius: 0px 0px 20px 0px;
 }
 
 h1 {
